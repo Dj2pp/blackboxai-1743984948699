@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Contact | 3D News Portal</title>
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="3d-header p-6 flex justify-between items-center">
+    <div class="logo-container">
+      <h1 class="logo text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">News3D</h1>
+    </div>
+    <nav class="nav-3d flex space-x-6">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="login.html" class="nav-link">Login</a>
+      <a href="signup.html" class="nav-link">Sign Up</a>
+      <a href="article.html" class="nav-link">Articles</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact-form max-w-4xl mx-auto p-6">
+    <h1 class="text-4xl font-bold mb-8">Contact Us</h1>
+    <form class="space-y-6">
+      <div>
+        <label for="name" class="block mb-2">Your Name</label>
+        <input type="text" id="name" class="3d-input w-full p-3 rounded bg-gray-700 border border-gray-600 focus:border-blue-500 focus:outline-none" placeholder="John Doe">
+      </div>
+      <div>
+        <label for="email" class="block mb-2">Your Email</label>
+        <input type="email" id="email" class="3d-input w-full p-3 rounded bg-gray-700 border border-gray-600 focus:border-blue-500 focus:outline-none" placeholder="your@email.com">
+      </div>
+      <div>
+        <label for="message" class="block mb-2">Message</label>
+        <textarea id="message" rows="6" class="3d-input w-full p-3 rounded bg-gray-700 border border-gray-600 focus:border-blue-500 focus:outline-none" placeholder="Your message..."></textarea>
+      </div>
+      <button type="submit" class="3d-button w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded transition-all">
+        Send Message
+      </button>
+    </form>
+  </section>
+
+  <footer class="footer-3d py-10 bg-gray-800">
+    <div class="container mx-auto px-4 text-center">
+      <p>© 2024 3D News Portal. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

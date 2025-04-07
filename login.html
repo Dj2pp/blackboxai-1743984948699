@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Login | 3D News Portal</title>
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="3d-header p-6">
+    <div class="logo-container">
+      <h1 class="logo text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">News3D</h1>
+    </div>
+  </header>
+
+  <section class="auth-container min-h-screen flex items-center justify-center">
+    <div class="login-form bg-gray-800 p-10 rounded-lg shadow-2xl w-full max-w-md">
+      <h2 class="auth-title text-3xl font-bold mb-8 text-center">Login</h2>
+      
+      <div class="mb-6">
+        <label for="loginEmail" class="block mb-2">Email</label>
+        <input type="email" id="loginEmail" class="3d-input w-full p-3 rounded bg-gray-700 border border-gray-600 focus:border-blue-500 focus:outline-none" placeholder="your@email.com">
+      </div>
+      
+      <div class="mb-6">
+        <label for="loginPassword" class="block mb-2">Password</label>
+        <input type="password" id="loginPassword" class="3d-input w-full p-3 rounded bg-gray-700 border border-gray-600 focus:border-blue-500 focus:outline-none" placeholder="••••••••">
+      </div>
+      
+      <button onclick="handleLogin()" class="3d-button w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded transition-all mb-4">
+        Login
+      </button>
+      
+      <div class="text-center">
+        <a href="signup.html" class="3d-link text-blue-400 hover:text-blue-300">Don't have an account? Sign Up</a>
+      </div>
+      
+      <p id="loginError" class="error-message mt-4 text-red-500 text-center"></p>
+    </div>
+  </section>
+
+  <footer class="footer-3d py-6 bg-gray-800">
+    <div class="container mx-auto px-4 text-center">
+      <p>© 2024 3D News Portal. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <title>3D News Portal</title>
+</head>
+<body class="bg-gray-900 text-white">
+  <!-- 3D Header -->
+  <header class="3d-header p-6 flex justify-between items-center">
+    <div class="logo-container transform-style-preserve-3d">
+      <h1 class="logo text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">News3D</h1>
+    </div>
+    <nav class="nav-3d flex space-x-6">
+      <a href="index.html" class="nav-link hover:text-blue-400 transition-all">Home</a>
+      <a href="about.html" class="nav-link hover:text-blue-400 transition-all">About</a>
+      <a href="login.html" class="nav-link hover:text-blue-400 transition-all">Login</a>
+      <a href="signup.html" class="nav-link hover:text-blue-400 transition-all">Sign Up</a>
+      <a href="article.html" class="nav-link hover:text-blue-400 transition-all">Articles</a>
+      <a href="contact.html" class="nav-link hover:text-blue-400 transition-all">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section min-h-[70vh] flex items-center justify-center text-center">
+    <div class="container mx-auto px-4">
+      <h1 class="text-6xl md:text-8xl font-bold mb-8 neon-text">
+        Welcome to <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">News3D</span>
+      </h1>
+      <p class="text-xl md:text-2xl mb-12 max-w-3xl mx-auto">
+        Immerse yourself in the future of news with our cutting-edge 3D animated platform. 
+        Experience stories like never before with interactive, sci-fi inspired journalism.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-6">
+        <a href="https://wordpress.org" class="neon-button">
+          Get Started on WordPress
+        </a>
+        <a href="about.html" class="neon-button secondary">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features py-20 bg-gradient-to-b from-gray-900 to-gray-800">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold mb-16 text-center neon-text">Why Choose News3D?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="feature-card">
+          <div class="feature-icon neon-icon">
+            <i class="fas fa-cube text-5xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold my-4">3D Storytelling</h3>
+          <p>Experience news in immersive 3D environments that bring stories to life.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon neon-icon">
+            <i class="fas fa-rocket text-5xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold my-4">Sci-Fi Inspired</h3>
+          <p>Futuristic design with neon aesthetics and interactive elements.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon neon-icon">
+            <i class="fas fa-globe text-5xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold my-4">Global Coverage</h3>
+          <p>Stay informed with worldwide news in our revolutionary format.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-3d mt-20 py-10 bg-gray-800">
+    <div class="container mx-auto px-4 text-center">
+      <p>© 2024 3D News Portal. All rights reserved.</p>
+      <div class="social-icons-3d flex justify-center space-x-6 mt-4">
+        <a href="#" class="text-2xl hover:text-blue-400 transition-all"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-2xl hover:text-blue-400 transition-all"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-2xl hover:text-blue-400 transition-all"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
